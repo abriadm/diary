@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'prequel';
+    src: url('/src/assets/fonts/PrequelDemo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'balsamiq';
+    src: url('/src/assets/fonts/BalsamiqSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'palmCanyon';
+    src: url('/src/assets/fonts/PalmCanyonDrive.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'helvetica';
+    src: url('/src/assets/fonts/Helvetica.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sf-mono';
+    src: url('/src/assets/fonts/SFMono-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
