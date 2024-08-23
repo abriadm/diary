@@ -6,7 +6,7 @@ function HomePage() {
   return (
     <>
       <div className="absolute hidden sm:block -top-6 -left-7 w-2/3 h-[115px] rounded-2xl shadow-[#DCE0FF] shadow-xl bg-[#DCE0FF] -z-10 "></div>
-      <div className="flex flex-col sm:h-auto sm:flex-row w-full mt-14 sm:justify-center items-center">
+      <div className="flex flex-col sm:h-auto sm:flex-row w-full mt-24 sm:mt-14 sm:justify-center items-center">
         <div className="flex px-8 sm:px-0 flex-col sm:w-2/5">
           <h1 className="text-4xl sm:text-6xl font-balsamiq font-extrabold mb-4 sm:mb-6 text-[#757700]">
             Apa itu Diary&#39;s?

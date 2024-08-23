@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="relative sm:overflow-hidden h-full sm:h-screen">
+    <div className="relative flex flex-col items-center sm:overflow-hidden w-screen sm:w-full h-full sm:h-screen">
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
