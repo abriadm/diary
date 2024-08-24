@@ -30,7 +30,7 @@ function Navbar() {
       {/* Desktop */}
       <div className="hidden sm:inline-flex bg-transparent sm:w-full justify-between font-helvetica items-center py-6 px-28">
         <Link to="/" className="text-6xl text-[#ad9a2c] font-bold font-palmCanyon">
-          Diary's
+          Diary&#39;s
         </Link>
         <div className="flex sm:flex-row gap-x-6 font-semibold text-xl">
           <Link
@@ -62,12 +62,12 @@ function Navbar() {
 
       {/* Mobile */}
       <div className="inline-flex fixed top-0 sm:hidden items-center justify-between  overflow-hidden w-[90%] py-4 mt-2">
-        <h1 className="text-4xl font-palmCanyon pl-3">Diary's</h1>
+        <h1 className="text-4xl font-palmCanyon pl-3">Diary&#39;s</h1>
         <button onClick={handleClick} className="transition ease-in duration-300 delay-100 hover:bg-[#FFEAC5] p-1 rounded-md text-[#603F26] hover:shadow-md"><IoMenu className="text-3xl" /></button>
       </div>
       <div ref={menuRef} className={`absolute z-40 transition ease-in duration-300 top-0 right-0 ${open ? 'translate-x-0' : 'translate-x-72'} w-64 bg-[#FFEAC5] text-[#603F26] h-screen`}>
         <div className="flex items-center justify-between py-4 px-6">
-          <h1 className="font-palmCanyon text-4xl">Diary's</h1>
+          <h1 className="font-palmCanyon text-4xl">Diary&#39;s</h1>
           <button onClick={handleClick} className="pt-2 hover:text-black transition ease-in duration-200"><IoClose className="text-4xl" /></button>
         </div>
         <div className="flex flex-col mt-8 gap-y-3 px-6">
