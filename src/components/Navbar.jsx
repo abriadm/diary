@@ -28,7 +28,7 @@ function Navbar() {
   return (
     <>
       {/* Desktop */}
-      <div className="hidden sm:inline-flex bg-transparent sm:w-full justify-between font-helvetica items-center py-6 px-28">
+      <div className="hidden sm:inline-flex bg-transparent z-20 sm:w-full justify-between font-helvetica items-center py-6 px-28">
         <Link to="/" className="text-6xl text-[#ad9a2c] font-bold font-palmCanyon">
           Diary&#39;s
         </Link>
