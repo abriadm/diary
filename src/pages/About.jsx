@@ -1,7 +1,7 @@
 
 function About() {
   return (
-    <div className="absolute top-0 left-0 -z-10 flex bg-[#DCE0FF] w-full h-screen items-center justify-center pt-10">
+    <div className="absolute top-0 left-0 flex z-10 bg-transparent w-full h-screen items-center justify-center pt-10">
       <iframe
         src="https://www.youtube.com/embed/jRV8F8z_bKY?si=dLbHy8wh35DqcG9F&amp;controls=0"
         title="YouTube video player"
