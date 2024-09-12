@@ -41,7 +41,7 @@ function HomePage() {
           </p>
           <span className="mt-4 text-lg text-[#8D493A] font-bold font-helvetica">Buka di jam 19.00 - 21.00 WIB</span>
           <Link
-            to="https://youtu.be/jRV8F8z_bKY?si=4zs_GWMyaTKXp_nU"
+            to="https://youtu.be/U_zefWkEyL0"
             className="sm:mt-6 mt-7  self-center sm:self-auto py-2 px-6 bg-[#FF8343] transition ease-in duration-300 hover:shadow-xl text-white w-fit rounded"
           >
             Pelajari lebih lanjut
