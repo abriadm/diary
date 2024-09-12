@@ -30,7 +30,7 @@ function Navbar() {
           </Link>
         </div>
         <Link
-          to="https://discord.gg/kDBejsNU"
+          to="https://discord.gg/y5Qa6PPW"
           className="text-white hidden sm:block font-semibold rounded-lg py-2 px-4 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 hover:shadow-lg duration-300"
         >
           Chat
