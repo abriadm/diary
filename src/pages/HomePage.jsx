@@ -16,7 +16,8 @@ function HomePage() {
       <img
         src={item.img}
         alt={item.title}
-        className='max-w-[100px] object-contain'
+        width={60}
+        className='max-w-[100px] rounded-xl object-contain'
       />
       <h3 className='text-xl text-[#5C1D19] font-bold'>{item.title}</h3>
       <IoChatboxOutline className='text-3xl font-bold text-[#FC4100]' />
