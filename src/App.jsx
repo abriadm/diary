@@ -9,13 +9,13 @@ import LandingPage from "./pages/LandingPage";
 function App() {
   return (
     <div className="relative flex flex-col sm:overflow-hidden w-screen sm:w-full h-full sm:h-screen">
-      {/* <Navbar /> */}
+      <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/konselor" element={<Konselor />} />
         <Route path="/about" element={<About />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
