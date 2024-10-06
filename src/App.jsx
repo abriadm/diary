@@ -11,7 +11,7 @@ function App() {
     <div className="relative flex flex-col sm:overflow-hidden w-screen sm:w-full h-full sm:h-screen">
       {/* <Navbar /> */}
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/konselor" element={<Konselor />} />
         <Route path="/about" element={<About />} />
       </Routes>
