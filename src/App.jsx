@@ -4,17 +4,18 @@ import Konselor from "./pages/Konselor";
 import About from "./pages/About";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
-    <div className="relative flex flex-col items-center sm:overflow-hidden w-screen sm:w-full h-full sm:h-screen">
-      <Navbar />
+    <div className="relative flex flex-col sm:overflow-hidden w-screen sm:w-full h-full sm:h-screen">
+      {/* <Navbar /> */}
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="/konselor" element={<Konselor />} />
         <Route path="/about" element={<About />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

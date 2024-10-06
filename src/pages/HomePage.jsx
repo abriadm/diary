@@ -53,7 +53,7 @@ function HomePage() {
           className="pl-12 hidden sm:block"
           alt="tangan"
         />
-        <Link to="https://discord.gg/y5Qa6PPW"
+        <Link to="https://discord.gg/H6V68sNHQM"
           className="w-fit mx-4 mt-10 inline-flex flex-col items-center shadow-xl sm:hidden bg-[#B1AFFF] rounded-xl overflow-hidden">
           <img
             src={anonim}
