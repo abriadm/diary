@@ -1,8 +1,3 @@
-# React + Vite
+# Web Diary's
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Diary's merupakan website yang dibuat untuk memudahkan dalam berbagi cerita dan masalah. Dimana website ini memiliki beberapa fitur baik cerita secara langsung maupun anonim. Fitur ini dibuat atas dasar pertimbangan dan kenyamanan dari penggunaan dan tentunya terjaga kerahasiaannya. Ayo berbagi cerita melalui Diary's.
